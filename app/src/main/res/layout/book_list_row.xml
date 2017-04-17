@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:id="@+id/txtISBN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3010991803"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtBookTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jingga Dan Senja"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtOtherInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esti Kinasih - 2010"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtOtherInfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teenfiction, Romance"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="589201920"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/txtBookTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jingga Dalam Elegi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtOtherInfo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esti Kinasih - 2010"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txtOtherInfo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teenfiction, Romance"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
